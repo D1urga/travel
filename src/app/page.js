@@ -14,29 +14,37 @@ import Cardthree from "./components/cardthree";
 
 export default function Home() {
   const list = [
-    <TripCard />,
-    <TripCard />,
-    <TripCard />,
-    <TripCard />,
-    <TripCard />,
-    <TripCard />,
-    <TripCard />,
-    <TripCard />,
-    <TripCard />,
+    <TripCard key={0} />,
+    <TripCard key={1} />,
+    <TripCard key={2} />,
+    <TripCard key={3} />,
+    <TripCard key={4} />,
+    <TripCard key={5} />,
+    <TripCard key={6} />,
+    <TripCard key={7} />,
+    <TripCard key={8} />,
   ];
-  const list2 = [<Cardtwo />, <Cardtwo />, <Cardtwo />, <Cardtwo />];
+  const list2 = [
+    <Cardtwo key={0} />,
+    <Cardtwo key={1} />,
+    <Cardtwo key={2} />,
+    <Cardtwo key={3} />,
+  ];
   const list3 = [
     <Cardthree
+      key={0}
       title="Contact Us"
       name="Address"
       detail=" Sector 44, noida, UP"
     />,
     <Cardthree
+      key={1}
       title="Call Now"
       name="Mobile No     : 098175-01500"
       detail=" Mobile No     : 088945-50050"
     />,
     <Cardthree
+      key={2}
       title="Email"
       name="Contact"
       detail="theldtourandtravels@gmail.com"
