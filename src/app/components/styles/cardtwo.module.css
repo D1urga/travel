@@ -1,0 +1,45 @@
+@media screen and (min-width: 900px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgb(218, 218, 218) 0px 0px 4px 1.3px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .main p {
+    padding: 0 40px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 520px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgb(218, 218, 218) 0px 0px 4px 1.3px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .main p {
+    padding: 0 40px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 520px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgb(218, 218, 218) 0px 0px 4px 1.3px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .main p {
+    padding: 0 40px;
+    text-align: center;
+  }
+  .main h2 {
+    font-size: 17px;
+  }
+}
